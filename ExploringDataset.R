@@ -18,3 +18,17 @@ str(stats)
 ## 'rnorm()' r - stands for random + 'norm' stands for normally 
 
 summary(stats)
+
+# Using the $ sign
+stats
+head(stats)
+
+stats[3, 3]
+stats[3, "Birth.rate"]
+
+stats$Internet.users
+stats$Internet.users[2]
+stats[ , "Internet.users"]
+
+str(stats)
+levels(stats$Income.Group)

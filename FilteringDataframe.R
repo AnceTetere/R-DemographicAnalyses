@@ -9,3 +9,4 @@ stats[stats$Income.Group == "High income", ]
 levels(stats$Income.Group)
 
 stats$Country.Name == "Malta"
+

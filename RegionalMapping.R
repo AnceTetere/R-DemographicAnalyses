@@ -20,3 +20,5 @@ summary(mydf)
 mydf <- data.frame(Country=Countries_2012_Dataset,Code=Codes_2012_Dataset,
                    Regions=Regions_2012_Dataset,stringsAsFactors = T)
 summary(mydf)
+
+rm(Codes_2012_Dataset, Countries_2012_Dataset, Regions_2012_Dataset)
